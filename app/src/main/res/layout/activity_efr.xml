@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="Taille" android:id="@+id/tv_Taille"/>
+
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/Taille" android:hint="Taille"/>
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="âge" android:id="@+id/tv_Age"/>
+
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/Age" android:hint="âge"/>
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="Sexe" android:id="@+id/tv_Sexe"/>
+
+    <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/Sexe" android:hint="Sexe"/>
+
+
+    <RadioGroup android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/sexeChooser">
+
+    <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="M" android:id="@+id/homme" android:checked="true"/>
+
+    <RadioButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="F" android:id="@+id/femme"/>
+
+</RadioGroup>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="VEMS Expérimental" android:id="@+id/tv_VEMSexp"/>
+
+    <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/vemsexp" android:hint="VEMS Expérimental"/>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="Ratio VEMS Théorique/VEMS Expérimental" android:id="@+id/tv_ratio"/>
+
+    <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ratio" android:hint="ratio"/>
+
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Envoyer" android:id="@+id/Envoyer"/>
+
+</LinearLayout>

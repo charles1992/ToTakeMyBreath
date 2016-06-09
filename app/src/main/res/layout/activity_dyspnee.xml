@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBox android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/Stade0" android:text="Vous êtes essouflé au repos vous obligeant à rester au domicile ?" android:layout_marginTop="50dp"/>
+
+    <CheckBox android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/Stade1" android:text="Vous ne pouvez marcher sans vous arrêter que moins de 100 m" android:layout_marginTop="1dp"/>
+
+    <CheckBox android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/Stade2" android:text="Vous avez du mal à suivre quelqu-un de votre âge sur le plat ?" android:layout_marginTop="1dp"/>
+
+    <CheckBox android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/Stade3" android:text="Vous êtes essouflé en marchant vite sur le plan ou dans une légère montée ?" android:layout_marginTop="1dp"/>
+
+    <CheckBox android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/Stade4" android:text="Vous montez sans problème au delà du 2ème étage" android:layout_marginTop="1dp"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/Envoyer" android:text="envoyer" android:layout_marginTop="1dp"/>
+
+</LinearLayout>
